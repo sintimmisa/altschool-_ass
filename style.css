@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Sofia+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Lato", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+:root{
+    --prim-bg-color:#F2F2F2;
+    --checkout-card-bg: white;
+    --sidebar-bg:#1179BF;
+    --primary-text:#1D2C3C;
+    --secondary-text:#646E7A;
+    --input-bg-color:#EDEFF2;
+
+}
+
+
+body{
+    background-color:var(--prim-bg-color);
+}
+.header{
+    width:100%;
+}
+
+.navbar{
+    width:90%;
+margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    padding-top: 20px;
+list-style-type:none;
+display:flex;
+align-items: center;
+}
+.navbar ul li{
+    margin-left:40px;
+   
+height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    width:100%;
+    margin: 30px auto;
+    
+    outline:none;
+    border: solid 0.1px rgb(240, 235, 235);
+    
+}
+
+.btn{
+    border:solid 0.5px black;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-content{
+    width: 60%;
+    margin:auto auto;
+    background-color:var(--checkout-card-bg);
+    display: flex;
+    justify-content: center;
+}
+
+.check-out{
+    background-color:var(--checkout-card-bg);
+    width: 70%;
+    padding: 60px;
+    
+}
+
+.side-bar{
+    background-color: var(--sidebar-bg);
+    width: 30%;
+    padding: 60px;
+}
+
+h1{
+    font-size: 2.6rem;
+
+    
+}
+
+.form-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    
+}
+
+.input-box{
+width: 48%;
+display: flex;
+flex-direction:column;
+margin-top:10px
+
+}
+
+.input-box input{
+    margin-top:10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--prim-bg-color);
+    outline: none;
+
+}
+
+.email{
+    width:70%;
+}
+.credit_card{
+    width:70% !important;
+}
+.credit_month, .credit_cvc{
+    width: 15.3% !important;
+    margin-left:-12px;
+}
+.buy-btn{
+    width: 100%;
+    padding: 12px;
+    margin:20px 0;
+    background-color: #038E7D;
+    border:none;
+    color:white;
+}
+
+
+.credit_month label,.credit_cvc label{
+    visibility: hidden;
+}

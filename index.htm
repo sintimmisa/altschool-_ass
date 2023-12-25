@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>AltSchool - Assignment 3</title>
 </head>
 <body>
@@ -10,7 +11,8 @@
   
 
     <header class="header">
-        <nav class="navbar ">
+        
+             <nav class="navbar ">
             <div class="logo">
                 <img src="./img/wppusher-logo copy.png" alt="WP Pusher Logo" srcset="">
             </div>
@@ -25,21 +27,24 @@
                 </ul>
             </div>
         </nav>
+      
+       
         <hr>
     </header>
     <main>
+        <section class="main-content">
         <section class="check-out">
             <h1>Checkout</h1>
             <hr>
 
             <form action="" method="post">
-
-                <div class="input-box first_name">
+                <div class="form-content">
+                <div class="input-box first_name w-50">
                     <label for="first-name">First Name</label>
                     <input type="text" name="first-name" id="">
                 </div>
 
-                <div class="input-box last_name">
+                <div class="input-box last_name w-50">
                     <label for="flast-name">LastName</label>
                     <input type="text" name="last-name" id="">
                 </div>
@@ -56,17 +61,17 @@
                 </div>
 
                 <div class="input-box credit_month">
-                   
+                    <label for="flast-name">Month</label>
                     <input type="text" name="month" id="" placeholder="MM/YY">
                 </div>
 
                 <div class="input-box credit_cvc">
-                   
+                    <label for="flast-name">CVC</label>
                     <input type="number" name="cvc" id="" placeholder="CVC">
                 </div>
-
-                <button>Buy WP Pusher</button>
-
+<button class="buy-btn">Buy WP Pusher</button></div>
+                
+            </div>
             </form>
             <img src="/img/Mask.png" alt="" srcset="">
 
@@ -96,6 +101,7 @@
             </div>
 
         </section>
+    </section>
     </main>
     
 </body>
