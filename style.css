@@ -9,7 +9,7 @@
 }
 
 :root{
-    --prim-bg-color:#F2F2F2;
+    --prim-bg-color:#F5F8FA;
     --checkout-card-bg: white;
     --sidebar-bg:#1179BF;
     --primary-text:#1D2C3C;
@@ -97,6 +97,7 @@ main{
 
 h1{
     font-size: 2.6rem;
+    
 
     
 }
@@ -115,6 +116,9 @@ display: flex;
 flex-direction:column;
 margin-top:10px
 
+}
+.nav_hr{
+    width: 90%;
 }
 
 .input-box input{
