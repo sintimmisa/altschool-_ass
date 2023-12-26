@@ -175,7 +175,7 @@ ul{
     list-style: none;
 }
 
-ul li{
+.side-bar ul li{
     font-weight: 300;
 }
 .side-bar p{
